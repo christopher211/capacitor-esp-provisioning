@@ -1,0 +1,39 @@
+PODS:
+  - Capacitor (2.4.6):
+    - CapacitorCordova
+  - CapacitorCordova (2.4.6)
+  - Curve25519 (1.1)
+  - ESPProvision (2.0.9):
+    - ESPProvision/Core (= 2.0.9)
+  - ESPProvision/Core (2.0.9):
+    - Curve25519 (~> 1.1.0)
+    - SwiftProtobuf (~> 1.5.0)
+  - SwiftProtobuf (1.5.0)
+
+DEPENDENCIES:
+  - "Capacitor (from `../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
+  - ESPProvision
+
+SPEC REPOS:
+  trunk:
+    - Curve25519
+    - ESPProvision
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../node_modules/@capacitor/ios"
+
+SPEC CHECKSUMS:
+  Capacitor: 0f131577d41c082931f00cc080e2289d503465c8
+  CapacitorCordova: 3375b39b5ebca770ac7869f85e4dea32a642c9e0
+  Curve25519: 5f595e906bd962248665978e2992a1fe96e2d831
+  ESPProvision: e1d2af98123111ffc8dd6714026beedd950a7c16
+  SwiftProtobuf: 241400280f912735c1e1b9fe675fdd2c6c4d42e2
+
+PODFILE CHECKSUM: 37ff2959ee02fc5e5048e7cc4007ac61d817fd1b
+
+COCOAPODS: 1.10.1
